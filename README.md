@@ -13,7 +13,7 @@ Use teaching: https://iweec.com/470.html
 
 二、打开页面：https://dashboard.ngrok.com/login 直接使用GitHub账号登录，然后在入门中找到授权令牌如图：
 
-[![Deploy](Imag/3970998153.png)]
+![Deploy](Imag/3970998153.png)
 
 三、在你自己仓库中修改config.sh,内容为 NGROK_TOKEN="这里粘贴你的令牌"，然后返回仓库，拷贝仓库地址，格式例如：https://github.com/你的名字/xssh
 
