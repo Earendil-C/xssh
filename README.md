@@ -18,7 +18,8 @@ Use teaching: https://iweec.com/470.html
 三、在你自己仓库中修改config.sh,内容为 NGROK_TOKEN="这里粘贴你的令牌"，然后返回仓库，拷贝仓库地址，格式例如：https://github.com/你的名字/xssh
 
 四、打开页面：https://cloud.okteto.com/#/login 同样用GitHub登录，然后在左上角点击：新建开发环境——git方法——url获取，填写上一个步骤中你的xssh URL，分支填写 main，然后启动。稍等1-3分钟，直到网络部署显示运行！
-网络部署.PNG
+
+![Deploy](Imag/2333084373.png)
 
 五、我们回到ngrok，在端点或者隧道代理中可以看到，类似 tcp://2.tcp.ngrok.io:12795 这样的一个地址。
 
@@ -31,7 +32,7 @@ Use teaching: https://iweec.com/470.html
 
 连接成功，我查看了一下htop，哇哦4核32G！！
 
-htop.PNG
+![Deploy](Imag/1783722128.png)
 
 ngrok和okteto的网页关闭后，机器仍然能运行，我也简单测试了两个脚本，能跑。
 
